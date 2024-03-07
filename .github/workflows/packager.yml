@@ -22,7 +22,7 @@ jobs:
         run: npm install -g turbowarp-packager-cli
 
       - name: Package project
-        run: npx turbowarp-packager-cli -i Source.sb3 -o dist
+        run: npx turbowarp-packager-cli -i cessource.sb3 -o dist
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
